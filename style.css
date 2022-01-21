@@ -293,7 +293,7 @@ ul{
         background: var(--clr-neutral-900);
         display: block;
         top: 0;
-        left: -100%;
+        left: -120%;
         overflow-y: auto;
         line-height: 50px;
         padding: 50px 10px;
