@@ -5,23 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>CSS Styled Card</title>
+    <title>Cool CSS Design</title>
 </head>
 
 <body>
 
-    <div class="card">
-        <div class="card-content">
-            <h2 class="card-title">Something Awesome</h2>
-            <p class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?
-            </p>
-            <a target="_blank" href="https://gist.github.com/msadikjowel/3136442d57fc4331be5d0d6b4b7f6200"
-                class="button">GitHub Code</a>
+    <!-- mega navigation menu starts -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#card-with-hover-animation">Cool CSS Design</a></div>
+            <input type="radio" name="slide" id="menu-btn">
+            <input type="radio" name="slide" id="cancel-btn">
+            <ul class="nav-links">
+                <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
+                <li><a href="#card-with-hover-animation"> Home <i class="fas fa-home"></i></a></li>
+                <li>
+                    <a href="#" class="desktop-item"> Design <i class="fas fa-chevron-down"></i></a>
+
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Design <i class="fas fa-chevron-down"></i></label>
+
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>CSS Card</header>
+                                <ul class="mega-links">
+                                    <li><a href="#card-with-hover-animation">Card with hover animation</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Image Works</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>CSS Card</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                    <li><a href="#">Coming soon...</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/msadikjowel/">Contact <i
+                            class="fas fa-external-link-alt"></i></a></li>
+                <li><a target="_blank" href="https://msadikjowel.netlify.app/" id="portfolio">Portfolio <i
+                            class="fas fa-user"></i></a>
+                </li>
+            </ul>
+
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+
+        </div>
+    </nav>
+    <!-- mega navigation menu ends -->
+
+    <!-- css card with hover animation starts -->
+    <div id="card-with-hover-animation" class="card-with-hover-animation">
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Something Awesome</h2>
+                <p class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?
+                </p>
+                <a target="_blank" href="https://gist.github.com/msadikjowel/3136442d57fc4331be5d0d6b4b7f6200"
+                    class="button">GitHub Code</a>
+            </div>
         </div>
     </div>
 
+    <!-- css card with hover animation ends -->
 </body>
 
 </html>
